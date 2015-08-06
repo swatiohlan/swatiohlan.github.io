@@ -1,541 +1,831 @@
-﻿ <!-- FlatFy Theme - Andrea Galanti /-->
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <title>Tarang Chugh</title>
+  <meta name="description" content="Personal Website">
+  <meta name="author" content="Tarang Chugh">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Swati Ohlan</title>
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
- 
-    <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	
-    <!-- Custom CSS-->
-    <link href="css/general.css" rel="stylesheet">
-	
-	 <!-- Owl-Carousel -->
-    <link href="css/custom.css" rel="stylesheet">
-	<link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
-	
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	
-	<script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+   <!-- Script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+   <!-- Favicons
+   ================================================== -->
+   <link rel="shortcut icon" href="images/favicon.png" >
+
+   <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56062307-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 </head>
 
-<body id="home">
+<body>
+  <!-- Preloader 
+  <div id="preloader">
+    <div class="loader"></div>    
+  </div>
+  preloader end-->
 
-	<!-- Preloader -->
-	<div id="preloader">
-		<div id="status"></div>
-	</div>
-	
-	<!-- FullScreen -->
-    <div class="intro-header">
-		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Swati Ohlan</h1>
-			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">The fool did not know it was impossible, so he did it.</h3>
-			<ul class="list-inline intro-social-buttons">
-				<li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
-				</li>
-				<li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
-				</li>
-			</ul>
-		</div>    
-        <!-- /.container -->
-		<div class="col-xs-12 text-center abcen wow fadeIn">
-			<div class="button_down "> 
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
-			</div>
-		</div>
+  <!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+  <div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+    <nav id="m-nav">
+
+     <a class="mobile-btn" href="#m-nav" title="Show navigation">Show navigation</a>
+     <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+     <ul id="nav" class="nav">
+      <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+      <li><a class="smoothscroll" href="#about">About Me</a></li>
+      <li><a class="smoothscroll" href="#resume">Profile</a></li>
+      <li><a class="smoothscroll" href="#call-to-action">Research</a></li>
+      <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+      <li><a class="smoothscroll" href="#interests">Interests</a></li>
+    </ul> <!-- end #nav -->
+
+  </nav> <!-- end #nav-wrap -->
+
+    </nav> <!-- end #nav-wrap -->
+
+    <div class="row banner">
+     <div class="banner-text">
+      <h1 class="responsive-headline wow zoomIn">Hi! <br> <br> I'm <span>Tarang Chugh</span></h1>
+      <h3 class="wow fadeInUp">Currently employed as a software engineer at <span><a href="http://www.research.ibm.com/labs/india/" target="_blank">IBM Research, India</a></span>. <br><br> Passionate about learning a new thing every day. <br> Find out more <a class="smoothscroll" href="#about">about me</a>.</h3>
+      <hr />
     </div>
-	
-	<!-- NavBar-->
-	<nav class="navbar-default" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#home">Flatfy</a>
-			</div>
+  </div>
 
-			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					
-					<li class="menuItem"><a href="#whatis">What is?</a></li>
-					<li class="menuItem"><a href="#useit">Use It</a></li>
-					<li class="menuItem"><a href="#screen">Screenshot</a></li>
-					<li class="menuItem"><a href="#credits">Credits</a></li>
-					<li class="menuItem"><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
-		   
-		</div>
-	</nav> 
-	
-	<!-- What is -->
-	<div id="whatis" class="content-section-b" style="border-top: 0">
-		<div class="container">
+  <p class="scrolldown">
+   <a class="smoothscroll" href="#about"><i class="fa fa-angle-double-down"></i></a>
+ </p>
 
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>What is?</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-				
-			</div>
-			
-			<div class="row">
-			
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image">
-				  <h3>Follow Me</h3>
-				  <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+ <div class="header-overlay"></div>
 
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img  class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
-				   <h3>Gallery</h3>
-				   <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img  class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image">
-				   <h3>Retina</h3>
-					<p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-			</div><!-- /.row -->
-				
-			<div class="row tworow">
-			
-				<div class="col-sm-4  wow fadeInDown text-center">
-				  <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
-				  <h3>Responsive</h3>
-				  <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img  class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
-				   <h3>Google</h3>
-				   <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img  class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
-				   <h3>Bootstrap</h3>
-				 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-			</div><!-- /.row -->
-		</div>
-	</div>
-	
-	<!-- Use it -->
-    <div id ="useit" class="content-section-a">
+   <!-- Social Section
+   ================================================== -->
+   <div id="social">
+    <div class="row social-container">
+      <ul class="social">
+      <li><a href="mailto:tarangchugh@gmail.com"><i class="fa fa-envelope"></i></a></li>
+       <li><a href="http://tarangchugh.me/photography/index.html" target="_blank"><i class="fa fa-picture-o"></i></a></li>
+       <li><a href="https://www.facebook.com/tarangchugh" target="_blank"><i class="fa fa-facebook"></i></a></li>
+       <li><a href="https://twitter.com/10gy" target="_blank"><i class="fa fa-twitter"></i></a></li>
+       <li><a href="https://www.linkedin.com/profile/view?id=167122878" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+       <li><a href="https://github.com/tchugh" target="_blank"><i class="fa fa-github"></i></a></li>
+       <li><a href="http://instagram.com/10gy" target="_blank"><i class="fa fa-instagram"></i></a></li>
+     </ul>
+   </div>
+ </div> <!-- Social End -->
+</header> <!-- Header End -->
 
-        <div class="container">
-			
-            <div class="row">
-			
-				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/ipad.png" alt="">
-                </div>
-				
-                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Full Responsive</h3>
-					<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                    <p class="lead">
-						In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-						Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-						uam non erat mirum sapientiae lorem cupido
-						patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
-					</p>
+<!-- About Section -->
+<section id="about">
 
-					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
-					 <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
-				</div>   
-            </div>
-        </div>
-        <!-- /.container -->
+  <div class="row bio-container">
+    <div class="twelve columns bio-inner">
+     <div class="six columns bio-left"> 
+       <div class="pp-container">
+
+        <img class="profile-pic wow zoomIn"  src="images/avatar.jpg" alt="" />
+        <h2>Tarang Chugh</h2>
+        <h3>Software Engineer (Research)</h3>              
+      </div> <!-- Profile Picture -->
     </div>
 
-    <div class="content-section-b"> 
-		
-		<div class="container">
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeftBig">
-                     <div id="owl-demo-1" class="owl-carousel">
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
-					</div>       
-                </div>
-				
-                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Drag Gallery</h3>
-					<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                    <p class="lead">
-						In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-						Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-						uam non erat mirum sapientiae lorem cupido
-						patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
-					</p>
+    <div class="six columns main-col wow fadeIn">
+      <div class="arrow-left"></div>
 
-					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
-					 <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
-				</div>  			
-			</div>
-        </div>
-    </div>
+      <p>I am a software engineer (research) at IBM India Research Lab, with interest in Machine Learning. Antecedent to joining IBM Research, I graduated with a Bachelors of Technology (Hons.) degree in Computer Science and Engineering from <a href="http://www.iiitd.ac.in" target="_blank"><b><i>IIIT Delhi</i></b></a>. <br><br> At undergraduate level, my research work has been focused towards the domain of face recognition, where I tackled the problem of matching composite sketches and digital face images. This <a href="data/btas2013_age.pdf" target="_blank"><i>work</i></a> is published at BTAS, 2013.
+      <br> At IBM Research, one of my current projects deal with identifying user and event veracity on twitter using spatio-temporal features. Another project, with a flavor of industrial research, simplifies and automates the process of capturing customer name variants in IBM sales and services data.<br><br>For a detailed view of my work, please download my resume or refer my <a class="smoothscroll" href="#resume"><b><i>profile</i></b></a> and <a class="smoothscroll" href="#portfolio"><b><i>projects section</i></b></a>.
+      </p>
 
-    <div class="content-section-a">
-
-        <div class="container">
-
-             <div class="row">
-			 
-				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/doge.png" alt="">
-                </div>
-			 
-                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Font Awesome & Glyphicon</h3>
-                    <p class="lead">A special thanks to Death to the Stock Photo for 
-					providing the photographs that you see in this template. 
-					</p>
-					
-					<ul class="descp lead2">
-						<li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
-						<li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
-						<li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
-					</ul>
-				</div>           
-            </div>
-        </div>
-
-    </div>
-
-	<!-- Screenshot -->
-	<div id="screen" class="content-section-b">
-        <div class="container">
-          <div class="row" >
-			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-				<h2>Screen App</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-		  </div>
-		    <div class="row wow bounceInUp" >
-              <div id="owl-demo" class="owl-carousel">
-				
-				<a href="img/slide/1.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
-					</div>
-				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
-					</div>
-				</a>
-				
-				<a href="img/slide/3.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
-					</div>
-				</a>
-				
-				<a href="img/slide/1.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
-					</div>
-				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
-					</div>
-				</a>
-				
-				<a href="img/slide/3.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
-					</div>
-				</a>
-              </div>       
-          </div>
-        </div>
-
-
-	</div>
-	
-	<div  class="content-section-c ">
-		<div class="container">
-			<div class="row">
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title white">
-				<h2>Get Live Updates</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-			<div class="mockup-content">
-					<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
-						<button type="button "><span>Subscribe to our Newsletter</span></button>
-						<div class="morph-content">
-							<div>
-								<div class="content-style-form content-style-form-4 ">
-									<h2 class="morph-clone">Subscribe to our Newsletter</h2>
-									<form>
-										<p><label>Your Email Address</label><input type="text"/></p>
-										<p><button>Subscribe me</button></p>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>	
-	
-	<!-- Credits -->
-	<div id="credits" class="content-section-a">
-		<div class="container">
-			<div class="row">
-			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Credits</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-			 
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-desktop fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Bootstrap </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-picture-o fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Owl-Carousel </h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
-		  
-		  <div class="row tworow">
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-magic fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Codrops </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-heart fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Lorem Ipsum</h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
-		</div>
-	</div>
-	
-	<!-- Banner Download -->
-	<div id="downloadlink" class="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Download Free</h2>
-				<p class="lead" style="margin-top:0">Pay with a Tweet</p>
-				<p><a class="btn btn-embossed btn-primary view" role="button">Free Download</a></p> 
-			 </div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Contact -->
-	<div id="contact" class="content-section-a">
-		<div class="container">
-			<div class="row">
-			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Contact Us</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			</div>
-			
-			<form role="form" action="" method="post" >
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="InputName">Your Name</label>
-						<div class="input-group">
-							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label for="InputEmail">Your Email</label>
-						<div class="input-group">
-							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label for="InputMessage">Message</label>
-						<div class="input-group">
-							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
-
-					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
-				</div>
-			</form>
-			
-			<hr class="featurette-divider hidden-lg">
-				<div class="col-md-5 col-md-push-1 address">
-					<address>
-					<h3>Office Location</h3>
-					<p class="lead"><a href="https://www.google.com/maps/preview?ie=UTF-8&q=The+Pentagon&fb=1&gl=us&hq=1400+Defense+Pentagon+Washington,+DC+20301-1400&cid=12647181945379443503&ei=qmYfU4H8LoL2oATa0IHIBg&ved=0CKwBEPwSMAo&safe=on">The Pentagon<br>
-					Washington, DC 20301</a><br>
-					Phone: XXX-XXX-XXXX<br>
-					Fax: XXX-XXX-YYYY</p>
-					</address>
-
-					<h3>Social</h3>
-					<li class="social"> 
-					<a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
-					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
-					<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
-					<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
-					</li>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	
-	
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <h3 class="footer-title">Follow Me!</h3>
-            <p>Vuoi ricevere news su altri template?<br/>
-              Visita Andrea Galanti.it e vedrai tutte le news riguardanti nuovi Theme!<br/>
-              Go to: <a  href="http://andreagalanti.it" target="_blank">andreagalanti.it</a>
-            </p>
-			
-			<!-- LICENSE -->
-			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
-		   property="dc:title">Flatfy Theme </a> by
-		   <a rel="dc:creator" href="http://www.andreagalanti.it"
-		   property="cc:attributionName">Andrea Galanti</a>
-		   is licensed to the public under 
-		   <BR>the <a rel="license"
-		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
-		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
-		   
-	   
-          </div> <!-- /col-xs-7 -->
-
-          <div class="col-md-5">
-            <div class="footer-banner">
-              <h3 class="footer-title">Flatfy Theme</h3>
-              <ul>
-                <li>12 Column Grid Bootstrap</li>
-                <li>Form Contact</li>
-                <li>Drag Gallery</li>
-                <li>Full Responsive</li>
-                <li>Lorem Ipsum</li>
-              </ul>
-              Go to: <a href="http://andreagalanti.it/flatfy" target="_blank">andreagalanti.it/flatfy</a>
-            </div>
-          </div>
+      <div class="row">            
+        <div class="six columns download">
+          <p>
+            <!-- <a href="#contact" class="button"><i class="fa fa-paper-plane"></i>Get In Touch</a> -->
+            <a href="data/TarangChugh_Resume.pdf" class="button" target="_blank"><i class="fa fa-download"></i>Download Resume</a>
+          </p>
         </div>
       </div>
-    </footer>
+    </div>
+  </div>
+</div>
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/script.js"></script>
-	<!-- StikyMenu -->
-	<script src="js/stickUp.min.js"></script>
-	<script type="text/javascript">
-	  jQuery(function($) {
-		$(document).ready( function() {
-		  $('.navbar-default').stickUp();
-		  
-		});
-	  });
-	
-	</script>
-	<!-- Smoothscroll -->
-	<script type="text/javascript" src="js/jquery.corner.js"></script> 
-	<script src="js/wow.min.js"></script>
-	<script>
-	 new WOW().init();
-	</script>
-	<script src="js/classie.js"></script>
-	<script src="js/uiMorphingButton_inflow.js"></script>
-	<!-- Magnific Popup core JS file -->
-	<script src="js/jquery.magnific-popup.js"></script> 
-</body>
+</section> <!-- About Section End-->
 
-</html>
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+    <h1 class="section-title wow fadeInDown">Profile</h1>
+      <!-- Education
+      =============================================== -->
+      <div class="row education">
+       <div class="three columns header-col">
+        <h2><span>Education</span></h2>
+      </div>
+
+      <div class="nine columns main-col">
+       <div class="education-timeline">
+        <ul class="timeline">
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">August 2009 - December 2013</p>
+              <h3>IIIT - Delhi</h3>
+              <h4>Bachelor of Technology (Hons.)</h4>
+              <h4>Computer Science &amp; Engineering</h4>
+              <p>
+               <strong>CGPA: 9.42 </strong><br>
+               <strong>Department Rank: 2</strong> (w/ Hons.)<br>
+               <strong>Streams Completed:</strong><br>
+               (i) Image Analysis and Machine Intelligence, <br>
+               (ii) Data Analytics, <br>
+               (iii) Mobile Computing <br>
+               (iv) Finance
+               <div class="item-wrap">
+                <strong>B.Tech. Project:</strong><br>
+                <strong>
+                  <a href="#modal-btas" title="">
+                      Matching Age Separated Composite Sketches and Digital Face Images
+                  </a>
+                </strong>
+                </div>
+             </div>
+           </li>
+         </ul>  
+       </div> <!-- Education Timeline End --> 
+     </div> <!-- main-col end -->
+
+   </div> <!-- End Education -->
+
+
+      <!-- Work
+      ========================================= -->
+      <div class="row work">
+       <div class="three columns header-col">
+        <h2><span>Work Experience</span></h2>
+      </div>
+      <div class="nine columns main-col">
+
+       <div class="work-timeline">
+        <ul class="timeline">
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">February, 2014 - Present</p>
+              <h3>IBM Research, India</h3>
+              <h4>Software Engineer (Research)</h4> 
+              <strong>
+                <div class="item-wrap">
+                  <a href="#modal-ibmveracity" title="">
+                      Identifying User/Event Veracity on Twitter: A Spatio-Temporal Approach
+                  </a>
+                </div>
+              </strong> 
+              <br>
+              <strong>
+                <div class="item-wrap">
+                  <a href="#modal-ibmnn" title="">
+                      Name Normalization Tool
+                  </a>
+                </div>
+              </strong>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">December, 2013 - February, 2014</p>
+              <h3>Image Analysis and Biometrics Lab, IIIT Delhi</h3>
+              <h4>Research Assistant</h4>
+              <strong>
+                <div class="item-wrap">
+                  <a href="#modal-tl" title="">
+                      Matching Composite Sketches and Digital Face Images: A Transfer Learning Approach
+                  </a>
+                </div>
+              </strong>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">May, 2013 - July, 2013</p>
+              <h3>Mobile and Ubiquitous Computing Group, IIIT Delhi</h3>
+              <h4>Software Engineer Intern (Development)</h4>
+              <strong>
+                <div class="item-wrap">
+                  <a href="#modal-dashboard" title="">
+                      Energy Consumption Dashboard: IIIT Delhi
+                  </a>
+                </div>
+              </strong>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">May, 2012 - November, 2012</p>
+              <h3>MADYNES Team, INRIA, Nancy, France</h3>
+              <h4>Software Engineer Intern (Research)</h4>
+              <strong>
+                <div class="item-wrap">
+                  <a href="#modal-inria" title="">
+                    Improving Content Availability in the I2P Anonymous File-Sharing Environment
+                  </a>
+                </div>
+              </strong>
+            </div>
+          </li>
+        </ul> 
+      </div> <!-- Work Timeline End --> 
+    </div> <!-- main-col end -->
+
+    <div class="three columns header-col">
+      <h2><span>Teaching</span></h2>
+    </div>
+
+    <div class="nine columns main-col">
+     <div class="work-timeline">
+      <ul class="timeline">
+        <li class="timeline-event">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">Fall 2013</p>
+            <h3>Introduction to Programming, IIIT Delhi</h3>
+            <h4>Teaching Assistant</h4>
+            <p>Designated duties included designing and conducting lab sessions, doubt clearing sessions, office hours, checking quizzes and examinations.</p>
+          </div>
+        </li>
+        <li class="timeline-event">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">Summer 2013</p>
+            <h3>Refresher Module on C Language, IIIT Delhi</h3>
+            <h4>Head Teaching Assistant</h4>
+            <p>Designed an 8-week long online refresher module on C Language majorly for incoming UnderGrad and Grad students. Designed the course work, homework assignments, quizzes and a programming competition in conjunction with a team of 3 junior TAs. </p>
+          </div>
+        </li>
+        <li class="timeline-event">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">Fall 2011</p>
+            <h3>System Management Course, IIIT Delhi</h3>
+            <h4>Teaching Assistant</h4>
+            <p>Responsible for designing the content of weekly lab sessions and mentoring students to conduct lab sessions for fellow students under my supervision. This rotational activity gave every student a chance to prepare content as a teacher resulting in better understanding.</p>
+          </div>
+        </li>
+      </ul>  
+    </div> <!-- Work Timeline End --> 
+  </div> <!-- main-col end -->
+
+</div> <!-- End Work -->
+
+
+      <!-- Skills
+      =============================================== -->
+      <div class="row skill">
+       <div class="three columns header-col">
+        <h2><span>Skills</span></h2>
+      </div>
+      <div class="nine columns main-col">
+        <div class="bars">
+         <ul class="skills">
+          <li><span class="bar-expand photoshop wow fadeInLeft"></span><em>Machine Learning</em></li>
+          <li><span class="bar-expand illustrator wow fadeInLeft"></span><em>Pattern Recognition</em></li>
+          <li><span class="bar-expand wordpress wow fadeInLeft"></span><em>Face Recognition</em></li>
+          <li><span class="bar-expand css wow fadeInLeft"></span><em>Java</em></li>
+          <li><span class="bar-expand html5 wow fadeInLeft"></span><em>C</em></li>
+          <li><span class="bar-expand jquery wow fadeInLeft"></span><em>HTML/CSS</em></li>
+        </ul>
+      </div><!-- end skill-bars -->
+    </div> <!-- main-col end -->
+  </div> <!-- End skills -->
+
+      <!-- Awards
+      =============================================== -->
+      <div class="row awards">
+       <div class="three columns header-col">
+        <h2><span>Recognition</span></h2>
+      </div>
+      <div class="nine columns main-col">
+        <p>I have witnessed my 5 minutes of fame.</p>
+        <div class="award-list">
+         <ul>
+           <li class="wow fadeIn">
+            <span><i class="fa fa-code fa-5x pull-left fa-fw"></i></span>
+            <h3>CodeWars'13 : Programming Competition</h3>
+            <h5>Winner, #Teams: 40+</h5>
+            <h4>IIIT Delhi</h4>
+          </li>
+          <li class="wow fadeIn">
+            <span><i class="fa fa-book fa-5x pull-left fa-fw"></i></span>
+            <h3>Best Course Project Awards</h3>
+            <h5>Multimedia Security, Image Analysis, Research Methods</h5>
+            <h4>IIIT Delhi</h4>
+          </li>
+          <li class="wow fadeIn">
+            <span><i class="fa fa-trophy fa-5x pull-left fa-fw"></i></span>
+            <h3>Chairman's Award of Excellence</h3>
+            <h5>Indraprastha International School</h5>
+            <h4>New Delhi, India</h4>
+          </li>
+          <li class="wow fadeIn">
+            <span><i class="fa fa-star fa-5x pull-left fa-fw"></i></span>
+            <h3>Pride of Indraprastha</h3>
+            <h5>Indraprastha International School</h5>
+            <h4>New Delhi, India</h4>
+          </li>
+          <li class="wow fadeIn">
+            <span><i class="fa fa-certificate fa-5x pull-left fa-fw"></i></span>
+            <h3>Certificate of Excellence, CBSE</h3>
+            <h5>Awarded to top 0.1% students, All India Level</h5>
+            <h4>New Delhi, India</h4>
+          </li>
+          <li class="wow fadeIn">
+            <span><i class="fa fa-globe fa-5x pull-left fa-fw"></i></span>
+            <h3>International Informatics Olympiad</h3>
+            <h5>All India Rank - 1 [Std. XI]</h5>
+            <h4>New Delhi, India</h4>
+          </li>
+          <li class="wow fadeIn">
+            <span><i class="fa fa-trophy fa-5x pull-left fa-fw"></i></span>
+            <h3>Scholastic Aptitude Test</h3>
+            <h5>Rank - 1, State Level [Std. VIII], #Participant Schools = 85+</h5>
+            <h4>New Delhi, India</h4>
+          </li>
+        </ul>
+      </div><!-- end awards list -->
+    </div> <!-- main-col end -->
+  </div> <!-- End skills -->
+</section> <!-- Resume Section End-->
+
+
+ <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+    <div class="row">
+     <div class="twelve columns">            
+      <h2 class="wow zoomIn">Research</h2>
+
+      <strong> Published </strong>
+      <p>T. Chugh, H.S. Bhatt, R. Singh, and M. Vatsa, <strong> <a href="data/btas2013_age.pdf" target="_blank"> Matching Age Separated Composite Sketches and Digital Face Images</a></strong>, International Conference on Biometrics: Theory, Applications and Systems, Washington D.C., 2013 [oral presentation]</p>
+
+      <strong> To be Submitted </strong>
+      <p>T. Chugh, R. Singh, and M. Vatsa, <strong><a href="/">Matching Composite Sketches and Digital Face Images: A Transfer Learning Approach</a></strong>, IEEE Transaction</p>
+
+    </div>
+  </div>
+</section> <!-- Call-To-Action Section End-->
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+    <div class="row">
+     <div class="twelve columns collapsed">
+      <h1 class="section-title wow fadeInDown">Selected Projects</h1>
+      <!-- portfolio-wrapper -->
+      <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf wow fadeIn">
+  
+<!-- Foogle -->
+  <div class="columns portfolio-item">
+    <div class="item-wrap">
+      <a href="#modal-foogle" title="">
+        <center><img alt="" src="images/foogle_small.jpg"></center>
+         <div class="overlay">
+           <div class="portfolio-item-meta">
+            <h5>Foogle</h5>
+            <p>Android Application</p>
+          </div>
+        </div>
+        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+      </a>
+    </div>
+  </div> <!-- item end -->
+
+<!-- User/Event Veracity -->
+<div class="columns portfolio-item">
+    <div class="item-wrap">
+     <a href="#modal-ibmveracity" title="">
+      <center><img alt="" src="images/veracity_small.jpg"></center>
+      <div class="overlay">
+       <div class="portfolio-item-meta">
+        <h5>Event Veracity on Twitter</h5>
+        <p>Research</p>
+      </div>
+    </div>
+    <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+  </a>
+</div>
+</div> <!-- item end -->
+
+<!-- Name Normalization -->
+<div class="columns portfolio-item">
+    <div class="item-wrap">
+     <a href="#modal-ibmnn" title="">
+      <center><img alt="" src="images/tssnn_small.jpg"></center>
+      <div class="overlay">
+       <div class="portfolio-item-meta">
+        <h5>Name Normalization Tool</h5>
+        <p>Industrial Research</p>
+      </div>
+    </div>
+    <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+  </a>
+</div>
+</div> <!-- item end -->
+
+
+<!-- BTAS Aging -->
+  <div class="columns portfolio-item">
+    <div class="item-wrap">
+     <a href="#modal-btas" title="">
+      <center><img alt="" src="images/btas_small.jpg"></center>
+      <div class="overlay">
+       <div class="portfolio-item-meta">
+        <h5>Composite Sketches</h5>
+        <p>Research</p>
+      </div>
+    </div>
+    <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+  </a>
+</div>
+</div> <!-- item end -->
+
+<!-- Transfer Learning Sketches -->
+<div class="columns portfolio-item">
+    <div class="item-wrap">
+     <a href="#modal-tl" title="">
+      <center><img alt="" src="images/tl_small.jpg"></center>
+      <div class="overlay">
+       <div class="portfolio-item-meta">
+        <h5>Composite Sketches</h5>
+        <p>Research</p>
+      </div>
+    </div>
+    <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+  </a>
+</div>
+</div> <!-- item end -->
+
+
+<!-- IIITD Dashboard Aging -->
+  <div class="columns portfolio-item">
+    <div class="item-wrap">
+     <a href="#modal-dashboard" title="">
+      <center><img alt="" src="images/dashboard_small.jpg"></center>
+      <div class="overlay">
+       <div class="portfolio-item-meta">
+        <h5>IIITD Energy Dashboard</h5>
+        <p>Development</p>
+      </div>
+    </div>
+    <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+  </a>
+</div>
+</div> <!-- item end -->
+
+<!-- INRIA -->
+<div class="columns portfolio-item">
+  <div class="item-wrap">
+      <a href="#modal-inria" title="">
+        <center><img alt="" src="images/inria_small.jpg"></center>
+          <div class="overlay">
+           <div class="portfolio-item-meta">
+            <h5>Content availability in I2P </h5>
+            <p>Java Application</p>
+          </div>
+        </div>
+        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+      </a>
+    </div>
+  </div> <!-- item end -->
+
+  <!-- MeetUp -->
+<div class="columns portfolio-item">
+  <div class="item-wrap">
+      <a href="#modal-meetup" title="">
+        <center><img alt="" src="images/meetup_small.jpg"></center>
+          <div class="overlay">
+           <div class="portfolio-item-meta">
+            <h5>MeetUp </h5>
+            <p>Android Application</p>
+          </div>
+        </div>
+        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+      </a>
+    </div>
+  </div><!-- item end -->
+
+</div> <!-- portfolio-wrapper end -->
+</div> <!-- twelve columns end -->
+
+         <!-- Modal Popup
+         =============================================== -->
+         <!-- Foogle -->
+         <div id="modal-foogle" class="popup-modal mfp-hide">
+          <center><img class="scale-with-grid" src="images/foogle_large.jpg" alt="" /></center>
+          <div class="description-box">
+            <h4>Foogle : Live Inventory Food Ordering Tool</h4>
+            <p>This food-ordering android application provides a key-feature of “live inventory”. Gone are those days when you would need to call and ask the vendor about the availability of your relished dish. This app displays the available quantity and gives you freedom of cashless food ordering. Also a boon to vendors, now their inventory is well managed.</p>
+            <span class="categories"><i class="fa fa-tag"></i>Android Application, Website</span>
+          </div>
+          <div class="link-box">
+           <a href="http://foogleiiit.appspot.com" target="_blank" class="button">Visit Foogle</a>
+           <a class="popup-modal-dismiss button btn-close">Close</a>
+         </div>
+       </div>
+
+       <!-- Event veracity -->
+       <div id="modal-ibmveracity" class="popup-modal mfp-hide">
+          <center><img class="scale-with-grid" src="images/veracity_large.jpg" alt="" /></center>
+          <div class="description-box">
+            <h4>Event Veracity on Twitter: A Spatio-Temporal Approach</h4>
+            <p>This tool ranks law and safety events, detected on twitter, based on their veracity and impact. It uses user/event level spatio-temporal features and incremental onlineSVM for ranking. Current work includes implementing module for rumor detection. In future, this project will be included in a dashboard designed to assist law enforcement agencies.</p>
+            <span class="categories"><i class="fa fa-tag"></i>Event Detection, Machine Learning</span>
+          </div>
+          <div class="link-box">
+           <!--<a href="http://foogleiiit.appspot.com" class="button">Visit Foogle</a>-->
+           <a class="popup-modal-dismiss button btn-close">Close</a>
+         </div>
+       </div>
+
+       <!-- Name Normalization -->
+       <div id="modal-ibmnn" class="popup-modal mfp-hide">
+          <center><img class="scale-with-grid" src="images/tssnn_large.jpg" alt="" /></center>
+          <div class="description-box">
+            <h4>Name Normalization Tool</h4>
+            <p>This tool is designed to eliminate customer name discrepancies (missing/incomplete information) in IBM sales and services data. It links all name variants to a single identifier. Using "approximate text-matching" techniques, this tool scores and ranks the detected name variants.</p>
+            <span class="categories"><i class="fa fa-tag"></i>Text-Matching, Industrial Research</span>
+          </div>
+          <div class="link-box">
+           <!--<a href="http://foogleiiit.appspot.com" class="button">Visit Foogle</a>-->
+           <a class="popup-modal-dismiss button btn-close">Close</a>
+         </div>
+       </div>
+
+       <!-- Transfer Learning -->
+       <div id="modal-tl" class="popup-modal mfp-hide">
+          <center><img class="scale-with-grid" src="images/tl_large.jpg" alt="" /></center>
+          <div class="description-box">
+            <h4>Matching Composite Sketches and Digital Face Images : A Transfer Learning Approach</h4>
+            <p>This project utilizes a transfer learning approach to match composite sketches and digital face images. The knowledge is transferred from information rich source domains. By using an evolutionary algorithm, the parameters are learnt in source domains and transferred using inductive transfer learning techniques. It also eliminates the need for re-training.</p>
+            <span class="categories"><i class="fa fa-tag"></i>Composite Sketches, Transfer Learning</span>
+          </div>
+          <div class="link-box">
+           <!--<a href="http://foogleiiit.appspot.com" class="button">Visit Foogle</a>-->
+           <a class="popup-modal-dismiss button btn-close">Close</a>
+         </div>
+       </div>
+
+       <!-- BTAS Aging -->
+       <div id="modal-btas" class="popup-modal mfp-hide">
+        <center><img class="scale-with-grid" src="images/btas_large.jpg" alt="" /></center>
+        <div class="description-box">
+          <h4>Matching Age Separated Composite Sketches and Digital Face Images </h4>
+          <p>This project aims to assist law-enforcement agencies in matching composite sketches with digital face images. A state-of-the-art algorithm, specifically designed to perform when there is an age gap between composite sketches and digital images, is presented in the work published at BTAS’13 (Oral Presentation).</p>
+          <span class="categories"><i class="fa fa-tag"></i>Face Recognition, Research</span>
+        </div>
+        <div class="link-box">
+         <a href="data/btas2013_age.pdf" target="_blank" class="button">Read Paper</a>
+         <a class="popup-modal-dismiss button btn-close">Close</a>
+       </div>
+     </div><!-- modal- -->
+
+     <!-- Dashboard -->
+     <div id="modal-dashboard" class="popup-modal mfp-hide">
+        <center><img class="scale-with-grid" src="images/dashboard_large.jpg" alt="" /></center>
+        <div class="description-box">
+          <h4>IIITD Energy Dashboard</h4>
+          <p>This project included designing an interface to visualize power consumption in IIIT Delhi campus. Used mango automation for designing interface and connected it to SQL server database. The interface was fed by live data from Raspberry Pi sensor systems placed at 40+ electricity meters.</p>
+          <span class="categories"><i class="fa fa-tag">Mango Automation, Energy Dashboard</i></span>
+        </div>
+        <div class="link-box">
+         <!--<a href="data/inria_i2p.pdf" class="button">Read Paper</a>-->
+         <a class="popup-modal-dismiss button btn-close">Close</a>
+       </div>
+     </div><!-- modal End -->
+
+     <!-- Inria -->
+     <div id="modal-inria" class="popup-modal mfp-hide">
+        <center><img class="scale-with-grid" src="images/inria_large.jpg" alt="" /></center>
+        <div class="description-box">
+          <h4>Improving Content Availability in the I2P Anonymous File-Sharing Environment</h4>
+          <p>Designed a bridge to interconnect anonymous file sharing network “i2p” and content-rich BitTorrent network. Added features like DHT support, Cache Manager, UDP Tracker Support and Multi Bridge Protocol. Work acknowledged in the research paper.</p>
+          <span class="categories"><i class="fa fa-tag"></i>I2P, BitTorrent, P2P, INRIA</span>
+        </div>
+        <div class="link-box">
+         <a href="data/inria_i2p.pdf" target="_blank" class="button">Read Paper</a>
+         <a class="popup-modal-dismiss button btn-close">Close</a>
+       </div>
+     </div><!-- modal End -->
+
+     <!-- MeetUp -->
+     <div id="modal-meetup" class="popup-modal mfp-hide">
+        <center><img class="scale-with-grid" src="images/meetup_large.jpg" alt="" /></center>
+        <div class="description-box">
+          <h4>MeetUp: Connecting Friends</h4>
+          <p>This application considers user location, budget and food preferences to recommend restaurants. The suggestions are budget friendly and located equi-distant from all members of the group. It is powered by Google App Engine, GeoLocation API and Foursquare API.</p>
+          <span class="categories"><i class="fa fa-tag"></i>MeetUp, Recommender System, Fair Policy</span>
+        </div>
+        <div class="link-box">
+         <!--<a href="data/inria_i2p.pdf" class="button">Read Paper</a>-->
+         <a class="popup-modal-dismiss button btn-close">Close</a>
+       </div>
+     </div><!-- modal End -->
+
+   </div> <!-- row End -->
+ </section> <!-- Portfolio Section End-->
+
+   <!-- Interests Section
+   ================================================== -->
+   <section id="interests">
+    
+    <div class="row">
+     <div class="twelve columns collapsed">
+      <h1 class="section-title wow fadeInDown">Interests</h1>
+      <!-- portfolio-wrapper -->
+      <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf wow fadeIn">
+
+       <div class="columns portfolio-item">
+        <div class="item-wrap">
+         <a href="#modal-i01" title="">
+          <center><img alt="" src="images/photography_small.jpg"></center>
+          <div class="overlay">
+           <div class="portfolio-item-meta">
+            <h5>Photography</h5>
+            <p>Landscapes
+            </p>
+          </div>
+        </div>
+        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+      </a>
+    </div>
+  </div> <!-- item end -->
+
+  <div class="columns portfolio-item">
+    <div class="item-wrap">
+     <a href="#modal-i02" title="">
+      <center><img alt="" src="images/music_small.jpg"></center>
+      <div class="overlay">
+       <div class="portfolio-item-meta">
+        <h5>Music</h5>
+        <p>Guitar</p>
+      </div>
+    </div>
+    <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+  </a>
+</div>
+</div> <!-- item end -->
+
+<div class="columns portfolio-item">
+        <div class="item-wrap">
+         <a href="#modal-i03" title="">
+          <center><img alt="" src="images/cycle_small.jpg"></center>
+          <div class="overlay">
+           <div class="portfolio-item-meta">
+            <h5>Cycling</h5>
+            <p>Long Trails</p>
+          </div>
+        </div>
+        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+      </a>
+    </div>
+  </div> <!-- item end -->
+
+  <div class="columns portfolio-item">
+        <div class="item-wrap">
+         <a href="#modal-i04" title="">
+          <center><img alt="" src="images/cube_small.jpg"></center>
+          <div class="overlay">
+           <div class="portfolio-item-meta">
+            <h5>Cube</h5>
+            <p>Speed Cubing</p>
+          </div>
+        </div>
+        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+      </a>
+    </div>
+  </div> <!-- item end -->
+
+</div> <!-- portfolio-wrapper end -->
+</div> <!-- twelve columns end -->
+
+         <!-- Modal Popup
+         =============================================== -->
+
+         <div id="modal-i01" class="popup-modal mfp-hide">
+          <center><img class="scale-with-grid" src="images/photography_large.jpg" alt="" /></center>
+          <div class="description-box">
+            <h4>Photography</h4>
+            <p>Landscape and portrait photography excites me.</p>
+            <span class="categories"><i class="fa fa-tag"></i>Photography, Website</span>
+          </div>
+          <div class="link-box">
+           <a href="photography/index.html" class="button">Visit Webpage</a>
+           <a class="popup-modal-dismiss button btn-close">Close</a>
+         </div>
+       </div><!-- modal-01 End -->
+
+       <div id="modal-i02" class="popup-modal mfp-hide">
+        <center><img class="scale-with-grid" src="images/music_large.jpg" alt="" /></center>
+        <div class="description-box">
+          <h4>Guitar</h4>
+          <p>I like to strum my guitar.</p>
+          <span class="categories"><i class="fa fa-tag"></i>Music, Guitar</span>
+        </div>
+        <div class="link-box">
+         <!--<a href="#" class="button">Webpage coming soon</a>-->
+         <a class="popup-modal-dismiss button btn-close">Close</a>
+       </div>
+     </div><!-- modal-02 End -->
+
+     <div id="modal-i03" class="popup-modal mfp-hide">
+        <center><img class="scale-with-grid" src="images/cycle_large.jpg" alt="" /></center>
+        <div class="description-box">
+          <h4>Cycling</h4>
+          <p>I like to cycle on long trails. Maximum distance covered is 110km in 2 day routine in Colmar, France. </p>
+          <span class="categories"><i class="fa fa-tag"></i>Cycling</span>
+        </div>
+        <div class="link-box">
+         <!--<a href="#" class="button">Blog coming soon</a>-->
+         <a class="popup-modal-dismiss button btn-close">Close</a>
+       </div>
+     </div><!-- modal-03 End -->
+
+     <div id="modal-i04" class="popup-modal mfp-hide">
+        <center><img class="scale-with-grid" src="images/cube_small.jpg" alt=""/></center>
+        <div class="description-box">
+          <h4>Speed Cubing</h4>
+          <p> Beginner in speed cubing. Best time: 82 seconds</p>
+          <span class="categories"><i class="fa fa-tag"></i>Cube</span>
+        </div>
+        <div class="link-box">
+         <!--<a href="#" class="button">Blog coming soon</a>-->
+         <a class="popup-modal-dismiss button btn-close">Close</a>
+       </div>
+     </div><!-- modal-03 End -->
+   </div> <!-- row End -->
+  </section> 
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+    <div class="row">
+     <div class="twelve columns">
+      <ul class="social-links">
+       <li><a href="mailto:tarangchugh@gmail.com"><i class="fa fa-envelope"></i></a></li>
+       <li><a href="http://tarangchugh.me/photography/index.html" target="_blank"><i class="fa fa-picture-o"></i></a></li>
+       <li><a href="https://www.facebook.com/tarangchugh" target="_blank"><i class="fa fa-facebook"></i></a></li>
+       <li><a href="https://twitter.com/10gy" target="_blank"><i class="fa fa-twitter"></i></a></li>
+       <li><a href="https://www.linkedin.com/profile/view?id=167122878" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+       <li><a href="https://github.com/tchugh" target="_blank"><i class="fa fa-github"></i></a></li>
+       <li><a href="http://instagram.com/10gy" target="_blank"><i class="fa fa-instagram"></i></a></li>
+     </ul>
+     <ul class="copyright">
+       <li>Tarang Chugh &copy; Copyright 2014, All Rights Reserved</li>
+     </ul>
+   </div>
+   <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="fa fa-chevron-up"></i></a></div>
+ </div>
+</footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/jquery-2.1.1.min.js"></script>
+   <!--<script src="assets/owl-carousel/owl.carousel.min.js"></script>-->
+   <!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&AMP;sensor=false"></script>-->
+   <!-- <script src="js/gmaps.js"></script>-->
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/jquery.nicescroll.min.js"></script>
+   <script src="js/script.js"></script>
+ </body>
+ </html>
